@@ -50,7 +50,7 @@ body:
     required: false
 - type: checkboxes
   attributes:
-   label: Plugins
+    label: Plugins
     description: If you remove all plugins, does the issue still occur?
-    validations:
-      required: false
+  validations:
+    required: false
