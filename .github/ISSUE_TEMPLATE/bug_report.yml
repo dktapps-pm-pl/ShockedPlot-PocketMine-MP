@@ -48,8 +48,6 @@ body:
   attributes:
     label: Plugins
     description: If you remove all plugins, does the issue still occur?
-  options:
-    - label: "I can reproduce this issue without any plugins loaded"
-      required: true
-  validations:
-    required: false
+    options:
+      - label: "I can reproduce this issue without any plugins loaded"
+        required: true
