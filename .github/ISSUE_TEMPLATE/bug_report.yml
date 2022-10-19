@@ -42,12 +42,14 @@ body:
         - Using JIT: yes/no (delete as appropriate) <!-- look for the giant yellow warning in the log that says you're using JIT -->
         - Server OS:
         - Game version: Android/iOS/Win10/Xbox/PS4/Switch (delete as appropriate)
-  render: markdown
   validations:
     required: false
 - type: checkboxes
   attributes:
     label: Plugins
     description: If you remove all plugins, does the issue still occur?
+  options:
+    - label: "I can reproduce this issue without any plugins loaded"
+      required: true
   validations:
     required: false
