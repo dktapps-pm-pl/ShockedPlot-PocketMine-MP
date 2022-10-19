@@ -4,53 +4,53 @@ title: ""
 labels: []
 assignees: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    attributes:
-      label: Expected behavior
-      description: What were you expecting to happen?
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Actual result
-      description: What actually happened?
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Steps to reproduce the issue
-      description: Steps to reproduce the issue.
-      placeholder: |
-        1. ...
-        2. ...
-    validations:
-      required: false
-   - type: textarea
-     attributes:
-       label: OS and Environnement
-       description: |
-         examples:
-           - **PocketMine-MP**: 4.9.1
-           - **PHP**: 8.0.19
-           - **Using JIT**: no
-           - **Server OS**: Ubuntu 20.04
-           - **Game version**: Win10
-       value: |
-           - PocketMine-MP:
-           - PHP:
-           - Using JIT: yes/no (delete as appropriate) <!-- look for the giant yellow warning in the log that says you're using JIT -->
-           - Server OS:
-           - Game version: Android/iOS/Win10/Xbox/PS4/Switch (delete as appropriate)
-       render: markdown
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug report!
+- type: textarea
+  attributes:
+    label: Expected behavior
+    description: What were you expecting to happen?
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Actual result
+    description: What actually happened?
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Steps to reproduce the issue
+    description: Steps to reproduce the issue.
+    placeholder: |
+      1. ...
+      2. ...
+  validations:
+    required: false
+ - type: textarea
+   attributes:
+     label: OS and Environnement
+     description: |
+       examples:
+         - **PocketMine-MP**: 4.9.1
+         - **PHP**: 8.0.19
+         - **Using JIT**: no
+         - **Server OS**: Ubuntu 20.04
+         - **Game version**: Win10
+     value: |
+         - PocketMine-MP:
+         - PHP:
+         - Using JIT: yes/no (delete as appropriate) <!-- look for the giant yellow warning in the log that says you're using JIT -->
+         - Server OS:
+         - Game version: Android/iOS/Win10/Xbox/PS4/Switch (delete as appropriate)
+     render: markdown
+   validations:
+     required: false
+ - type: checkboxes
+   attributes:
+     label: Plugins
+     description: If you remove all plugins, does the issue still occur?
      validations:
        required: false
-   - type: checkboxes
-     attributes:
-       label: Plugins
-       description: If you remove all plugins, does the issue still occur?
-       validations:
-         required: false
