@@ -67,3 +67,20 @@ body:
     options:
       - label: "I can reproduce this issue without any plugins loaded"
         required: true
+- type: checkboxes
+  attributes:
+    label: Plugins
+    description: If the issue is **not** reproducible without plugins
+    options:
+      - label: "I asked for help on our forums before creating the issue"
+        required: false
+      - label: "I can provide an example of code that reproduces the issue"
+        required: false
+- type: textarea
+  attributes:
+    label: Crashdump, backtrace or other files
+    description: |
+      Submit crashdumps at https://crash.pmmp.io and paste a link
+      Use gist or anything else to add other files and add links here
+  validations:
+    required: false
