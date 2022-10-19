@@ -1,8 +1,5 @@
 name: Bug Report
 description: Unexpected non-crash behaviour (except missing gameplay features)
-title: ""
-labels: []
-assignees: []
 body:
 - type: markdown
   attributes:
