@@ -1,0 +1,19 @@
+name: Crash
+description: Report a crash in PocketMine-MP (not plugins)
+title: Server crashed
+body:
+- type: input
+  attributes:
+    label: Link to crashdump
+    description: |
+      Submit crashdump files to https://crash.pmmp.io
+      Or, copy the data between ===BEGIN CRASH DUMP=== and ===END CRASH DUMP and paste it on a site like https://pastebin.com
+      DON'T JUST PASTE the crashdump
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional comments
+    description: Write additional information about the crash to help us find the problem
+  validations:
+    required: false
